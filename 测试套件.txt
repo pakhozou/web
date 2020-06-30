@@ -1,0 +1,10 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+baidu_search
+    Open Browser    http://baidu.com    chrome
+    Input Text    id=kw    百度文科
+    Maximize Browser Window
+    Click Element    id=su    submit
+    Click Element
