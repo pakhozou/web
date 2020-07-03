@@ -1,9 +1,7 @@
 import React from 'react';  //导入react
-// import 'whatwg-fetch'
-// import api from "../../../day01/firstreact/src/APi";
-import Axios from'./isaxios'
-import {Link,Route} from 'react-router-dom'
-import ShowDetail from './testRouter/ShowDetail'
+
+import Axios from'./util/axios'
+import {Link} from 'react-router-dom'
 //xxx 组件名
 class demo3 extends React.Component {
   //构造函数

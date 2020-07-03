@@ -16,5 +16,48 @@ body ul li {
 }
 a{
   text-decoration: none;
-  color: #1d4b5f;
+  color: #222222;
+}
+Header{
+  background-color: #1d4b5f!important;
+  font-size: 22px;
+  color: white!important;
+  font-weight: bold;
+}
+.login-form {
+  max-width: 300px;
+
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.loginForm{
+  margin: 20px 100px 20px 100px ;
+}
+.Login{
+  width: 450px;
+  margin: 100px auto;
+}
+
+.active{
+  color: red;
+}
+.menu{
+  background-color: #1d4b5f!important;
+  height: 100vh;
+}
+.tab{
+  width: 1000px ;
+  height: auto;
+  margin: 50px auto;
+}
+.ant-table-pagination-right{
+  float: none!important;
+  text-align: center!important;
 }
